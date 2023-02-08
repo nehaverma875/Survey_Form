@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> form</title>
+    <link rel="stylesheet" type="text/css" href="sform.css">
+
+
+</head>
+
+<body>
+    <h1>
+        GeeksforGeeks Survey Form
+    </h1>
+    <div id="bform">
+
+        <form id="f">
+            <div class="n">
+                <label for="name" id id="ln">
+                    <br>
+
+            Name </label>
+                <br> <input type="text" id="name" placeholder="Enter your name...">
+
+
+            </div>
+
+
+
+            <div class="n">
+                <label for="email" id="le">
+                    Email 
+                </label><br> <input type="email" id="email" placeholder="Enter your Email...">
+
+
+            </div>
+
+
+            <div class="n">
+                <lable for="age" id="lage">
+                    Age
+                </lable>
+                <br><input type="number " id="age" placeholder="Enter your Age...">
+
+            </div>
+
+            <div class="n">
+                <label for="role" id="lr">
+                    Which option best describes you ?
+                </label>
+                <br>
+                <select name="role" id="role">
+                    <option value="student">Student</option>
+                    <option value="intern">Intern</option>
+                    <option value="professional">Professional</option>
+                    <option value="other">Other</option>
+
+                </select>
+            </div>
+
+            <div class=" w">
+                <label> Would you recommend GeeksforGeeks to a friend ?</label>
+                <!--- radio button-->
+                <label for="rd1">
+                    <br>
+
+                <input type ="radio" id="rd1" name=" rd">Yes</input>
+            </label>
+
+                <label for="rd2">
+                    <br>
+
+                <input type ="radio" id="rd2" name=" rd">No</input>
+                
+            </label>
+
+                <label for="rd3">
+                    <br>
+                <input type ="radio" id="rd3" name=" rd">May be</input>
+            </label>
+            </div>
+
+
+            <div class="w">
+                <br>
+                <label>Languagez and Frameworks know
+                    <small>( Check all that apply )</small>
+                </label>
+
+
+
+
+                <label for="in1">
+                    <br>
+                    <input type="checkbox" name="in" >C</input> </label>
+
+
+
+                <label for="in2">
+                    <br>
+                    <input type="checkbox" name="in" >C++</input> </label>
+
+                <label for="in3">
+                    <br>
+                        <input type="checkbox" name="in" >C#</input> </label>
+
+
+                <label for="in4">
+                    <br>
+                            <input type="checkbox" name="in" >Java</input> </label>
+
+                <label for="in5">
+                    <br>
+                                <input type="checkbox" name="in" >Python</input> </label>
+
+                <label for="in6">
+                    <br>
+                                    <input type="checkbox" name="in" >JavaScript</input> </label>
+
+                <label for="in7">
+                    <br>
+                                        <input type="checkbox" name="in" >React</input> </label>
+
+                <label for="in8">
+                        <br>                    <input type="checkbox" name="in" >Agular</input> </label>
+
+                <label for="in9">
+                    <br>
+                                                <input type="checkbox" name="in" >Djongo</input> </label>
+
+                <label for="in10">
+                        <br>                            <input type="checkbox" name="in" >Spring</input> </label>
+
+            </div>
+
+
+            <div class="n">
+                <label for="comment">
+                    <br>
+
+                    Any comments or suggestions
+                </label>
+                <br>
+                <textarea name="comment " id="comment" placeholder="Enter your comments..."></textarea>
+            </div>
+
+
+            <div id="but">
+
+                <button type="submit" value="submit">Submit</button>
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
