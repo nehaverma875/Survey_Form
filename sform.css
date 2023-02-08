@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(62, 255, 62);
+}
+
+h1 {
+    text-align: center;
+}
+
+#bform {
+    border: 1px solid rgb(82, 81, 81);
+    background-color: white;
+    height: 860px;
+    width: 590px;
+    margin-left: 28%;
+    box-shadow: 5px 10px 18px;
+}
+
+.n {
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.n input,
+.n select,
+.n textarea {
+    border: 1px solid #777;
+    width: 95%;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+#but button {
+    padding-left: 24px;
+    width: 92%;
+    height: 36px;
+    margin-left: 5%;
+    border: 1px solid rgb(24, 21, 21);
+    background-color: rgb(21, 240, 21);
+    font-weight: bold;
+}
+
+.w input,
+.w label {
+    margin-left: 5%;
+}
